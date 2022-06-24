@@ -30,4 +30,7 @@
         width: 65vw;
         height: 45px;
     }
+    .gui{
+flex-direction: column;
+}
 }
