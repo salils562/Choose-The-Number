@@ -1,0 +1,33 @@
+.logo{
+    font-weight: bold;
+   
+}
+#computer{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.gui{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#userInput{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 35vw;
+    height: 35px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+.alert{
+    height: 5vw;
+}
+@media only screen and (max-width: 450px){
+    .alert{
+        height: 70px;
+    }
+    #userInput{
+        width: 65vw;
+        height: 45px;
+    }
+}
